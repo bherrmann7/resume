@@ -6,7 +6,9 @@ Initially outputs html, but should ideally also support outputing pdf, word, mar
 
 ## Usage
 
+    $ git clone git@github.com:bherrmann7/resume.git
     $ lein run
+    $ open resume.html
 
 ## Sample output
 
