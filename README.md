@@ -12,7 +12,7 @@ Initially outputs html, but should ideally also support outputing pdf, word, mar
 
 ## Sample output
 
-    See http://rh4c.com/resume.html
+See [http://rh4c.com/resume.html](http://rh4c.com/resume.html)
     
 
 ## License
