@@ -77,7 +77,7 @@
              "<div class='container'>"
              (clojure.string/join html-blocks)
              "</div></body>"))
-  (println html)
+  ;(println html)
   (spit "resume.html" (clojure.string/join html))
   )
 
