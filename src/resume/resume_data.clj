@@ -20,32 +20,30 @@
 
     :experience [
                   :job ["HubAnalytics, Cambridge, MA" "Principal Software Engineer" "SEP 2012 - Present"]
-                  :did ["Designed and Implemented a loan application processing application in Bootstrap/JQuery/Rails/Clojure"
+                  :did ["Created a loan application processing application in Bootstrap/JQuery/Rails/Clojure"
                         "Develop, QA, Deploy, Iterate, Support on a collection of Rails Applications"
-                        "DevOps. Responsible for Architecture and implemenation of our cloud operating system"]
+                        "DevOps. Responsible for architecture and implemenation of our cloud operating system"]
 
                   :job ["InnoCentive, Waltham, MA" "Senior Grails Developer" "JUN 2011 - AUG 2012"]
-                  :did ["Evangelize automated functional testing (http://gebish.org)"
-                        "Helped add major new feature (Brainstorm Challenges)"
+                  :did ["Evangelized automated functional testing (http://gebish.org)"
+                        "Helped add major new feature (Brainstorm Challenges) to grails site"
                         "Investigated, recommended, and implemented a payment system (stripe.com)"]
 
                   :job ["Isobar / Putnam Investments, Boston, MA" "Consulting Engineer" "NOV 2010 - JUL 2011"]
-                  :did ["Used Spring/Hibernate/Freemarker to create a simple flexible platform for delivering and sharing information with Financial Advisors"]
-
+                  :did ["Selected Spring/Hibernate/Freemarker to realize a system marketing could update, but engineering could own."]
 
                   :job ["NYC Hospitals/Data Vision Group, NJ" "Senior Consulting Engineer" "AUG 2010 - Present"]
-                  :did ["The application marries LDAP, command line tools, and a relational database to choreograph a work-flow involving 40 participants involved in the management of a hospital's 40,000 users."
-                        "Created web application using Wicket/Hibernate/Spring/JQuery/Java to provide an efficient means for managing hundreds of daily change requests."]
-
+                  :did ["The web application marries LDAP, command line tools, and a relational database to choreograph a work-flow involving 40 participants involved in the management of a hospital's 40,000 users."
+                        "The application used Wicket/Hibernate/Spring/JQuery/Java/SqlServer"]
 
                   :job ["QUICKHIT, MA" "Senior Java/Grails Engineer" "JUN 2010 - SEP 2010"]
-                  :did ["Refactored a database of 300 columns by turning it on side.   Resulted in a 50% reduction in storage reduction.   Utilized Java/Hibernate/Spring/Grails."]
+                  :did ["Refactored a database of 300 columns by turning columns into rows.   Resulted in a 50% reduction in storage reduction.   Utilized Java/Hibernate/Spring/Grails."]
 
                   :job ["InnoCentive, Waltham, MA" "Grails Consultant" "JUN 2008 - MAY 2010"]
-                  :did ["Help development of site for matching problem solvers and problem seekers."
+                  :did ["Help development of site for matching problem solvers and solution seekers."
                         "Guided transition from old Java Framework (Enhydra) to Grails"
                         "Helped define best practices for development using Grails"
-                        "Rapidly delivered  production system for viewing and searching problems"
+                        "Rapidly delivered  production system for viewing and searching content"
                         "Developed system for letting users tag content"]
 
                   :job ["Robert Herrmann Associates, Groton, MA" "Android Development" "DEC 2008 - Present"]
@@ -56,9 +54,8 @@
 
                   :job ["ITA Software (now Google), Cambridge, MA" "Senior Consulting Engineer" "JUL 2006 - JUN 2009"]
                   :did ["Participated in design and development of an airline reservations system."
-                        "Specialized Load Balancer for handling HTTP Requests and Pulling from Oracle Queues"
+                        "Specialized load balancer for handling HTTP requests and pulling from Oracle queues"
                         "Wrote test reporting application using Grails"
-                        "Developed Promotion Code processing"
                         "Developed solution for sending rich HTML receipts to customers"]
 
                   :job ["P&H Solutions (ph.com), Waltham, MA" "Senior Consulting Engineer" "MAY 2004 - JUN 2006"]
@@ -68,12 +65,13 @@
                         "Utilize agile methods: refactoring, unit tests, continuous integration"]
 
                   :job ["Sun Microsystems, Marlboro, MA" "Senior Consulting Engineer" "JAN 2003 - MAY 2004"]
-                  :did ["Part of a team that developed an application for monitoring storage systems.  The application was implemented using Java, XML, Javascript, tag libraries, Oracle, eclipse, Ant, Tomcat, Linux, Solaris"
+                  :did ["Part of a team that developed an application for monitoring storage systems."
+                        "The application was implemented using Java, XML, Javascript, tag libraries, Oracle, eclipse, Ant, Tomcat, Linux, Solaris"
                         "Designed and developed application features; Searching, Filtering, and Custom Reporting"
-                        "Ensure application automatically switched to Chinese, Japanese or French based on client's language"]
+                        "Worked to drive application's automatic switching to Chinese, Japanese or French based on client's language"]
 
                   :job ["Cell Exchange / Boeing, Cambridge, MA" "Consulting Architect/Developer" "DEC 2002"]
-                  :did ["Rapidly architected and developed an aircraft inventory/status web application for USAF"]
+                  :did ["Rapidly architected and developed an aircraft inventory/status web application for USAF bases"]
 
                   :job ["Sun Microsystems, Burlington, MA" "Consulting Engineer" "MAY 2002 - NOV 2002"]
                   :did ["Contributor to the open source Apache Tomcat project.  Tomcat is the reference JSP/Servlet implementation.  Tomcat is core technology in many J2EE application servers."

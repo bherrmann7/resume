@@ -11,4 +11,4 @@ pom.xml
 .idea
 resume.iml
 resume.html
-
+deploy.sh
