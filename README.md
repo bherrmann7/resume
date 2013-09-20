@@ -1,4 +1,4 @@
-# resume
+# Resume
 
 Ideally takes generic data about a resume and transforms it into a realized resume.
 
