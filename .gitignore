@@ -10,3 +10,5 @@ pom.xml
 .lein-plugins
 .idea
 resume.iml
+resume.html
+
