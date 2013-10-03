@@ -1,5 +1,7 @@
 # Resume
 
+If github is the "new resume", then why not check in code to generate your resume?
+
 Ideally takes generic data about a resume and transforms it into a realized resume.
 
 Initially outputs html, but should ideally also support outputing pdf, word, markdown.
