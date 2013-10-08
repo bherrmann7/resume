@@ -16,13 +16,13 @@
               "Operating System" "Linux/Ubuntu/Solaris/Unix, MacOS, Windows"
               "Databases" "MySQL, Oracle, Redis, LDAP"
               "Forgotten" "TRS-80 Basic, Vax 11/780 Assembly, Z-80 Assembly, Fortran, COBOL"
-              "User Group Talks" "Griffon, Gradle, Geb Talks, Twitter Bootstrap"]
+              "User Group Talks" "Griffon, Gradle, Geb, Twitter Bootstrap"]
 
     :experience [
                   :job ["HubAnalytics, Cambridge, MA" "Principal Software Engineer" "SEP 2012 - Present"]
-                  :did ["Created a loan application processing application in Bootstrap/JQuery/Rails/Clojure"
+                  :did ["Created a loan application processor in Bootstrap/JQuery/Rails/Clojure"
                         "Develop, QA, Deploy, Iterate, Support on a collection of Rails Applications"
-                        "DevOps. Responsible for architecture and implemenation of our cloud operating system"]
+                        "DevOps. Responsible for architecture and implementation of our cloud operating system"]
 
                   :job ["InnoCentive, Waltham, MA" "Senior Grails Developer" "JUN 2011 - AUG 2012"]
                   :did ["Evangelized automated functional testing (http://gebish.org)"
@@ -30,17 +30,17 @@
                         "Investigated, recommended, and implemented a payment system (stripe.com)"]
 
                   :job ["Isobar / Putnam Investments, Boston, MA" "Consulting Engineer" "NOV 2010 - JUL 2011"]
-                  :did ["Selected Spring/Hibernate/Freemarker to realize a system marketing could update, but engineering could own."]
+                  :did ["Selected Spring/Hibernate/Freemarker to realize a system marketing could update, but engineering could own"]
 
                   :job ["NYC Hospitals/Data Vision Group, NJ" "Senior Consulting Engineer" "AUG 2010 - Present"]
-                  :did ["The web application marries LDAP, command line tools, and a relational database to choreograph a work-flow involving 40 participants involved in the management of a hospital's 40,000 users."
+                  :did ["The web application marries LDAP, command line tools, and a relational database to choreograph a work-flow involving 40 participants involved in the management of a hospital's 40,000 users"
                         "The application used Wicket/Hibernate/Spring/JQuery/Java/SqlServer"]
 
                   :job ["QUICKHIT, MA" "Senior Java/Grails Engineer" "JUN 2010 - SEP 2010"]
-                  :did ["Refactored a database of 300 columns by turning columns into rows.   Resulted in a 50% reduction in storage reduction.   Utilized Java/Hibernate/Spring/Grails."]
+                  :did ["Refactored a database of 300 columns by turning columns into rows.   Resulted in a 50% reduction in storage reduction.   Utilized Java/Hibernate/Spring/Grails"]
 
                   :job ["InnoCentive, Waltham, MA" "Grails Consultant" "JUN 2008 - MAY 2010"]
-                  :did ["Help development of site for matching problem solvers and solution seekers."
+                  :did ["Help development of site for matching problem solvers and solution seekers"
                         "Guided transition from old Java Framework (Enhydra) to Grails"
                         "Helped define best practices for development using Grails"
                         "Rapidly delivered  production system for viewing and searching content"
@@ -53,19 +53,19 @@
                         "Application forwards stats, downloads, and errors to central site for analysis"]
 
                   :job ["ITA Software (now Google), Cambridge, MA" "Senior Consulting Engineer" "JUL 2006 - JUN 2009"]
-                  :did ["Participated in design and development of an airline reservations system."
+                  :did ["Participated in design and development of an airline reservations system"
                         "Specialized load balancer for handling HTTP requests and pulling from Oracle queues"
                         "Wrote test reporting application using Grails"
                         "Developed solution for sending rich HTML receipts to customers"]
 
                   :job ["P&H Solutions (ph.com), Waltham, MA" "Senior Consulting Engineer" "MAY 2004 - JUN 2006"]
-                  :did ["Migrated mature banking web application from the Microsoft platform (C++/COM/MTS/ASP/ADO/VB) to the J2EE (Java/JDBC/JSP/JUnit) platform."
+                  :did ["Migrated mature banking web application from the Microsoft platform (C++/COM/MTS/ASP/ADO/VB) to the J2EE (Java/JDBC/JSP/JUnit) platform"
                         "Provide just in time architecture and design"
                         "Team resource for Java/J2EE and IDE expertise"
                         "Utilize agile methods: refactoring, unit tests, continuous integration"]
 
                   :job ["Sun Microsystems, Marlboro, MA" "Senior Consulting Engineer" "JAN 2003 - MAY 2004"]
-                  :did ["Part of a team that developed an application for monitoring storage systems."
+                  :did ["Part of a team that developed an application for monitoring storage systems"
                         "The application was implemented using Java, XML, Javascript, tag libraries, Oracle, eclipse, Ant, Tomcat, Linux, Solaris"
                         "Designed and developed application features; Searching, Filtering, and Custom Reporting"
                         "Worked to drive application's automatic switching to Chinese, Japanese or French based on client's language"]
@@ -74,7 +74,7 @@
                   :did ["Rapidly architected and developed an aircraft inventory/status web application for USAF bases"]
 
                   :job ["Sun Microsystems, Burlington, MA" "Consulting Engineer" "MAY 2002 - NOV 2002"]
-                  :did ["Contributor to the open source Apache Tomcat project.  Tomcat is the reference JSP/Servlet implementation.  Tomcat is core technology in many J2EE application servers."
+                  :did ["Contributor to the open source Apache Tomcat project.  Tomcat is the reference JSP/Servlet implementation.  Tomcat is core technology in many J2EE application servers"
                         "Implemented new Servlet 2.4 functionality for Tomcat 4 and Tomcat 5"
                         "Track/fix/eliminated problems with SSL, session handling, and logging"
                         "Participated in Tomcat development community (discussions, votes, bug fixes)"]
@@ -89,13 +89,13 @@
                         "Created a place for managers to post questions and answers to communicate with employees"]
 
                   :job ["Voice of the Web, Reading, MA" "Chief Architect/Co-Founder" "NOV 2000 - MAR 2001"]
-                  :did ["Co-Founded a Startup Company creating software to scan news sites and create spoken audio content from the site’s content.  Finalist in both the Lycos Labs and Boston.com business plan competitions."
-                        "Rapidly developed and deployed system in 2 months using J2EE, XML, VoiceXML, Java, JSP, Apache’s Tomcat, tellme.com, Bell Labs Text-to-speech engine"]
+                  :did ["Co-Founded a Startup Company creating software to scan news sites and create spoken audio content from the site's content.  Finalist in both the Lycos Labs and Boston.com business plan competitions"
+                        "Rapidly developed and deployed system in 2 months using J2EE, XML, VoiceXML, Java, JSP, Apache's Tomcat, tellme.com, Bell Labs Text-to-speech engine"]
 
                   :job ["Lumapath, Inc. Maynard, MA" "Senior Engineer, Team Leader" "JAN 2000 - NOV 2000"]
-                  :did ["Venture funded early stage startup that created an innovative search and user interface technology."
-                        "Designed and created a knowledge engineering tool for editors to process daily flow of search terms.  Tool allowed editors to create/edit/test/execute a set of rules for improving search hit quality."
-                        "Lead creation of automated deployment system for server farm (JSP/Java, F5’s load balancer, Akamai’s cache, offsite hosting, NT, IIS, Netscape/iPlanet, JavaScript, XML, Oracle)"]
+                  :did ["Venture funded early stage startup that created an innovative search and user interface technology"
+                        "Designed and created a knowledge engineering tool for editors to process daily flow of search terms.  Tool allowed editors to create/edit/test/execute a set of rules for improving search hit quality"
+                        "Lead creation of automated deployment system for server farm (JSP/Java, F5's load balancer, Akamai's cache, offsite hosting, NT, IIS, Netscape/iPlanet, JavaScript, XML, Oracle)"]
 
                   :job ["Radnet, Wakefield, MA" "Senior Consulting Engineer" "MAY 1999 - DEC 1999"]
                   :did ["Developed portions of portal architecture (User, Preferences, Content Database) using Java/COM, IIS, ASP, MTS, Oracle"

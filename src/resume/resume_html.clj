@@ -28,7 +28,7 @@
 
 (defmethod consume :skills [data]
   (let [[command skill-table & more] data]
-    (flatten ["\n<p><h3>Technolgies</h3><table>\n" (table-row skill-table) "\n</table><p>\n" (consume more)])
+    (flatten ["\n<p><h3>Technologies</h3><table>\n" (table-row skill-table) "\n</table><p>\n" (consume more)])
     )
   )
 
@@ -76,7 +76,7 @@
              "<script src='http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js'></script></head><body>\n"
              "<div class='container'>"
              (clojure.string/join html-blocks)
-             "</div></body>"))
+             "</div><p></body>"))
   ;(println html)
   (spit "resume.html" (clojure.string/join html))
   )
