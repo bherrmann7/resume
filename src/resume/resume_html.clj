@@ -48,7 +48,7 @@
   (let [[command items & more] data
         image-name (first items)
         points (rest items)]
-  (flatten [ "<table width=800px><tr><td><ul><li>" (clojure.string/join "<li>" points) "</ul><td align='right'><img src='images/mono-" image-name ".png'/></table>" (consume more)])
+  (flatten [ "<table width=800px><tr><td><ul><li>" (clojure.string/join "<li>" points) "</ul><td align='right'><img src='images/" image-name ".png'/></table>" (consume more)])
   ))
 
 (defmethod consume :experience [data]
@@ -79,7 +79,6 @@
              "<div class='container'>"
              (clojure.string/join html-blocks)
              "</div><p></body>"))
-  (println html)
   (spit "resume.html" (clojure.string/join html))
   )
 
