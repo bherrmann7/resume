@@ -19,7 +19,11 @@
               "User Group Talks" "Griffon, Gradle, Geb, Twitter Bootstrap"]
 
     :experience [
-                  :job ["HubAnalytics, Cambridge, MA" "Principal Software Engineer" "SEP 2012 - Present"]
+                  :job ["Humedica, Boston, MA" "Consulting Software Engineer" "OCT 2013 - Present"]
+                  :did [ "humedica" "Improved analytics application - provided new views/filters using Java/Spring/Oracle/Flex"
+                         "Exposed application subset as SOAP web service" ]
+
+                  :job ["HubAnalytics, Cambridge, MA" "Principal Software Engineer" "SEP 2012 - OCT 2013"]
                   :did [ "hubanalytics" "Created a loan application processor in Bootstrap/JQuery/Rails/Clojure"
                         "Develop, QA, Deploy, Iterate, Support on a collection of Rails Applications"
                         "DevOps. Responsible for architecture and implementation of our cloud operating system"]

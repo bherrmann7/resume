@@ -80,7 +80,5 @@
              (clojure.string/join html-blocks)
              "</div><p></body>"))
   (spit "resume.html" (clojure.string/join html))
+  (println "resume.html written.")
   )
-
-
-(resume.resume-html/transform resume.resume-data/resume)
