@@ -6,22 +6,37 @@
                    :title "Senior Software Consultant"
 
                    :addr1 "Robert W. Herrmann"
-                   :addr "4 Amandas Way, Groton, MA 01450"
-                   :addr "bob@jadn.com  781-526-7764"
+                   :addr "43 Fawn Ter, Groton, MA 01450"
+                   :addr "bob@jadn.com  978-512-0495"
                    ]
     :skills [
-              "Application Technology" "Rails, Grails, J2EE, Android, Swing, Gradle/Ant/Maven"
-              "Application Servers" "Apache, nginx, J2EE, Tomcat"
-              "Languages" "Clojure, Java, JavaScript, Ruby, HTML, Perl, C++/C"
+
+              "Languages" "Clojure, Java, JavaScript, React, CSS"
               "Operating System" "Linux/Ubuntu/Solaris/Unix, MacOS, Windows"
               "Databases" "MySQL, Oracle, Redis, LDAP"
-              "Forgotten" "TRS-80 Basic, Vax 11/780 Assembly, Z-80 Assembly, Fortran, COBOL"
-              "User Group Talks" "Griffon, Gradle, Geb, Twitter Bootstrap"]
+    ]
 
     :experience [
-                  :job ["Humedica, Boston, MA" "Consulting Software Engineer" "OCT 2013 - Present"]
-                  :did [ "humedica" "Improved analytics application - provided new views/filters using Java/Spring/Oracle/Flex"
-                         "Exposed application subset as SOAP web service" ]
+
+                :job [ "Patient Ping, Boston,  MA" "Consulting Software Engineer" "Feb 2018 - MAR 2019" ]
+                :did [ "patientping"
+                    "Updated patient records based on requests from external systems"
+                    "Changed data access paths to use a MySQL partitioned index to speed up production"
+                    "Implemented a mechanism for tracing dataflow through Kafka based messaging system"
+                    "Designed/Implemented comparison process to enable vetting of system changes"
+                    "Created tool for generating millions of patients for testing" ]
+
+                :job [ "Vecna, Cambridge,  MA" "Consulting Software Engineer" "JUN 2017 - FEB 2018" ]
+                :did [ "vecna" "Created system for managing warehouse inventory using SpringBoot"
+                    "Designed/Implemented a distributed system for evaluating robotics planning algorithms"
+                    "Did performance analysis on production Java/Tomcat/Postgres system" ]
+
+                 :job [ "Optum Analytics, Boston,  MA" "Consulting Software Engineer" "OCT 2013 - JUN 2017" ]
+                 :did [ "optum"   "Designed/Delivered a custom sql query engine for accessing patient data in Java/Spring"
+                   "Developed team standards for developing/using Javascript/ES6 with React/Redux"
+                   "Crafted SQL ETL to place new patient data in warehouse"
+                   "Added features to an analytics application - Java/Spring/Oracle/Flex"
+                   "Leverage and promote Clojure/ClojureScript" ]
 
                   :job ["HubAnalytics, Cambridge, MA" "Principal Software Engineer" "SEP 2012 - OCT 2013"]
                   :did [ "hubanalytics" "Created a loan application processor in Bootstrap/JQuery/Rails/Clojure"
@@ -51,7 +66,7 @@
                         "Developed system for letting users tag content"]
 
                   :job ["Robert Herrmann Associates, Groton, MA" "Android Development" "DEC 2008 - Present"]
-                  :did [ "carcast" "Created \"Car Cast Podcast Player\" an in car podcast player for Android"
+                  :did [ "carcast" "Created 'Car Cast Podcast Player' an in car podcast player for Android"
                         "Application has over 7000 active users"
                         "Entered into Android Development Contest II"
                         "Application forwards stats, downloads, and errors to central site for analysis"]
