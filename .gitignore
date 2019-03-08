@@ -10,5 +10,4 @@ pom.xml
 .lein-plugins
 .idea
 resume.iml
-deploy.sh
 resume.html
