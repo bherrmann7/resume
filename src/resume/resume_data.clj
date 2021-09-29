@@ -16,7 +16,11 @@
               "Databases" "MySQL, Oracle, Redis, LDAP"
     ]
 
-    :experience [
+   :experience [
+                :job [ "Elromco, Canton, MA" "Consulting Software Enginner" "March 2019 - Present"]
+                :did [ "elromco"
+                       "Developed product for automating the logistics required by small moving companies" 
+                       "Utilized Java/MySql/SpringBoot/Microservices" ]
 
                 :job [ "Patient Ping, Boston,  MA" "Consulting Software Engineer" "Feb 2018 - MAR 2019" ]
                 :did [ "patientping"
