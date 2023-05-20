@@ -6,3 +6,5 @@
 (defn -main
   [& args]
   (resume.resume-html/transform resume.resume-data/resume))
+
+(-main)

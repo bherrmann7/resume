@@ -11,13 +11,19 @@
                    ]
     :skills [
 
-              "Languages" "Clojure, Java, JavaScript, React, CSS"
+              "Languages" "Clojure, Java/Spring, JavaScript, SQL, CSS"
               "Operating System" "Linux/Ubuntu/Solaris/Unix, MacOS, Windows"
               "Databases" "MySQL, Oracle, Redis, LDAP"
     ]
 
    :experience [
-                :job [ "Elromco, Canton, MA" "Consulting Software Enginner" "March 2019 - Present"]
+
+                :job [ "Carbonado, Burlington, MA" "Consulting Enginner" "November 2021 - Present"]
+                :did [ "carbonado"
+                      "Helped modernize and add new features to an enterprise-sized hl7 reporting system"
+                      "Designed and implemented a trading application utilizing a combination of Java and Python to evaluate the market and execute trades" ]
+                
+                :job [ "Elromco, Canton, MA" "Consulting Software Enginner" "March 2019 - November 2021"]
                 :did [ "elromco"
                        "Developed product for automating the logistics required by small moving companies" 
                        "Utilized Java/MySql/SpringBoot/Microservices" ]

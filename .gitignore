@@ -11,3 +11,6 @@ pom.xml
 .idea
 resume.iml
 resume.html
+.clj-kondo
+.cpcache
+.lsp
