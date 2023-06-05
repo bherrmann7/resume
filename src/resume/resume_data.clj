@@ -3,161 +3,139 @@
 (def resume
   [
     :intro-block [
-                   :title "Senior Software Consultant"
-
+                   :title "Senior Software Engineer"
                    :addr1 "Robert W. Herrmann"
                    :addr "43 Fawn Ter, Groton, MA 01450"
                    :addr "bob@jadn.com  978-512-0495"
-                   ]
+                   :addr "https://www.linkedin.com/in/robertherrmann/"
+                  ]
+   :summary [
+             "Results-driven Senior Software Engineer with a strong aptitude for solving complex problems and delivering innovative solutions."
+             "Skilled at effectively communicating intricate technical tradeoffs to stakeholders."
+             "Experienced in leading and managing projects, driving technological innovation, and leveraging a wide range of technologies"
+             "Proficient in functional and object-oriented programming, Agile, Test-Driven Development (TDD), Scrum, and Continuous Delivery."
+             "Strong expertise in database management with a focus on Postgres, MySQL, Oracle, Redis, and LDAP."
+             ]
+
     :skills [
-
-              "Languages" "Clojure, Java/Spring, JavaScript, SQL, CSS"
-              "Operating System" "Linux/Ubuntu/Solaris/Unix, MacOS, Windows"
-              "Databases" "MySQL, Oracle, Redis, LDAP"
-    ]
-
+             "Languages" "Java/SpringBoot, JavaScript, Clojure, SQL, CSS, C++, Python, Scripting, Bash, Perl, Kotlin"
+             "Operating System" "Linux/Ubuntu/Unix, MacOS, Windows, Multics"
+             "Approaches" "Functional, Object-oriented, Agile, Test Driven, Scrum, REPL, Continuous delivery"
+             "Databases" "Postgres, MySQL, Oracle, Redis, LDAP, Datalog"
+             "Data" "JSON, EDN, XML, XSLT, HL7"
+             "Tools" "IntelliJ, AWS, Docker, GIT, Jenkins, Maven, Gradle, Jupyter, Emacs, Mirth"
+            ]
    :experience [
-
-                :job [ "Carbonado, Burlington, MA" "Consulting Enginner" "November 2021 - Present"]
+                :job [ "Carbonado, Burlington, MA" "Consulting Engineer" "Nov 2021 - Present"]
                 :did [ "carbonado"
-                      "Helped modernize and add new features to an enterprise-sized hl7 reporting system"
-                      "Designed and implemented a trading application utilizing a combination of Java and Python to evaluate the market and execute trades" ]
-                
-                :job [ "Elromco, Canton, MA" "Consulting Software Enginner" "March 2019 - November 2021"]
+                      "Collaborated in the modernization and development of new features for an enterprise-level hospital reporting system"
+                      "Designed and implemented a stock exchange trading application that leveraged real-time ticker data and sophisticated algorithms to execute trades"
+                      ]
+                :job [ "Elromco, Canton, MA" "Consulting Software Engineer" "Mar 2019 - Nov 2021"]
                 :did [ "elromco"
-                       "Developed product for automating the logistics required by small moving companies" 
-                       "Utilized Java/MySql/SpringBoot/Microservices" ]
+                      "Developed microservices for platform automating the order management for moving companies"
+                      "Collected requirements, designed, implemented, and demonstrated solutions" ]
 
-                :job [ "Patient Ping, Boston,  MA" "Consulting Software Engineer" "Feb 2018 - MAR 2019" ]
+                :job [ "Patient Ping, Boston,  MA" "Consulting Software Engineer" "Feb 2018 - Mar 2019" ]
                 :did [ "patientping"
-                    "Updated patient records based on requests from external systems"
-                    "Changed data access paths to use a MySQL partitioned index to speed up production"
-                    "Implemented a mechanism for tracing dataflow through Kafka based messaging system"
-                    "Designed/Implemented comparison process to enable vetting of system changes"
-                    "Created tool for generating millions of patients for testing" ]
+                     "Revised the event processing logic for a system that processes HL7 ADT feeds from 8,000 hospital organizations."
+                      "Implemented a mechanism for tracing dataflow through a Kafka based messaging system"
+                      "Developed tool for generating millions of realistic patient events, enabling robust development of systems without the need for sensitive HIPAA data."]
 
-                :job [ "Vecna, Cambridge,  MA" "Consulting Software Engineer" "JUN 2017 - FEB 2018" ]
+                :job [ "Vecna, Cambridge,  MA" "Consulting Software Engineer" "Jun 2017 - Feb 2018" ]
                 :did [ "vecna" "Created system for managing warehouse inventory using SpringBoot"
-                    "Designed/Implemented a distributed system for evaluating robotics planning algorithms"
-                    "Did performance analysis on production Java/Tomcat/Postgres system" ]
+                    "Designed/Implemented a distributed system for evaluating robotics planning algorithms using ClojureScript."
+                    "Did performance analysis and tuning on production Java/Tomcat/Postgres system" ]
 
-                 :job [ "Optum Analytics, Boston,  MA" "Consulting Software Engineer" "OCT 2013 - JUN 2017" ]
-                 :did [ "optum"   "Designed/Delivered a custom sql query engine for accessing patient data in Java/Spring"
-                   "Developed team standards for developing/using Javascript/ES6 with React/Redux"
-                   "Crafted SQL ETL to place new patient data in warehouse"
-                   "Added features to an analytics application - Java/Spring/Oracle/Flex"
-                   "Leverage and promote Clojure/ClojureScript" ]
+                :job [ "Optum Analytics, Boston,  MA" "Consulting Software Engineer" "Oct 2013 - Jun 2017" ]
+                :did [ "optum"
+                      "Developed team standards for developing/using Javascript/ES6 with React/Redux"
+                      "Translated R code from data scientists into SQL dialect for ETL processing of patient data."
+                      "Added features to an analytics application - Java/Spring/Oracle/Flex"
+                      "Leverage and promote Clojure/ClojureScript" ]
 
-                  :job ["HubAnalytics, Cambridge, MA" "Principal Software Engineer" "SEP 2012 - OCT 2013"]
-                  :did [ "hubanalytics" "Created a loan application processor in Bootstrap/JQuery/Rails/Clojure"
+                  :job ["HubAnalytics, Cambridge, MA" "Principal Software Engineer" "Sep 2012 - Oct 2013"]
+                  :did [ "hubanalytics" "Created a loan application processor in Bootstrap/JQuery/Clojure"
                         "Develop, QA, Deploy, Iterate, Support on a collection of Rails Applications"
                         "DevOps. Responsible for architecture and implementation of our cloud operating system"]
 
-                  :job ["InnoCentive, Waltham, MA" "Senior Grails Developer" "JUN 2011 - AUG 2012"]
-                  :did [ "innocentive" "Evangelized automated functional testing (http://gebish.org)"
-                        "Helped add major new feature (Brainstorm Challenges) to grails site"
-                        "Investigated, recommended, and implemented a payment system (stripe.com)"]
+                  :job ["InnoCentive, Waltham, MA" "Senior Grails Developer" "Jun 2011 - Aug 2012"]
+                  :did [ "innocentive" "Evangelized browser based automated functional testing solution using Selenium WebDriver"
+                        "Reponsible for adding new feature with corresponding payment system (stripe.com)"]
 
-                  :job ["Isobar / Putnam Investments, Boston, MA" "Consulting Engineer" "NOV 2010 - JUL 2011"]
-                  :did ["isobar" "Selected Spring/Hibernate/Freemarker to realize a system marketing could update, but engineering could own"]
+                  :job ["Putnam Investments, Boston, MA" "Consulting Engineer" "Nov 2010 - Jul 2011"]
+                  :did ["isobar" "Led a team in the development and implementation of a content management system utilizing Spring, Hibernate, and Freemarker."]
 
-                  :job ["NYC Hospitals/Data Vision Group, NJ" "Senior Consulting Engineer" "AUG 2010 - Present"]
+                  :job ["NYC Hospitals/Data Vision Group, NJ" "Senior Consulting Engineer" "Aug 2010 - Jul 2011"]
                   :did [ "nychhc" "The web application marries LDAP, command line tools, and a relational database to choreograph a work-flow involving 40 participants involved in the management of a hospital's 40,000 users"
                         "The application used Wicket/Hibernate/Spring/JQuery/Java/SqlServer"]
 
-                  :job ["QUICKHIT, MA" "Senior Java/Grails Engineer" "JUN 2010 - SEP 2010"]
-                  :did [ "quickhit" "Refactored a database of 300 columns by turning columns into rows.   Resulted in a 50% reduction in storage reduction.   Utilized Java/Hibernate/Spring/Grails"]
+                  :job ["QUICKHIT, MA" "Senior Java/Grails Engineer" "Jun 2010 - Sep 2010"]
+                  :did [ "quickhit" "Refactored a database of 300 columns by turning columns into rows.   Resulted in a 50% reduction in storage reduction."]
 
-                  :job ["InnoCentive, Waltham, MA" "Grails Consultant" "JUN 2008 - MAY 2010"]
-                  :did [ "innocentive" "Help development of site for matching problem solvers and solution seekers"
-                        "Guided transition from old Java Framework (Enhydra) to Grails"
-                        "Helped define best practices for development using Grails"
+                  :job ["InnoCentive, Waltham, MA" "Grails Consultant" "Jun 2008 - May 2010"]
+                  :did [ "innocentive" "Guided transition from old web framework to modern web framework"
+                        "Helped define best practices for development using Grails web application platform"
                         "Rapidly delivered  production system for viewing and searching content"
-                        "Developed system for letting users tag content"]
+                        ]
 
-                  :job ["Robert Herrmann Associates, Groton, MA" "Android Development" "DEC 2008 - Present"]
-                  :did [ "carcast" "Created 'Car Cast Podcast Player' an in car podcast player for Android"
-                        "Application has over 7000 active users"
-                        "Entered into Android Development Contest II"
-                        "Application forwards stats, downloads, and errors to central site for analysis"]
+                  :job ["ITA Software (now Google), Cambridge, MA" "Senior Consulting Engineer" "Jul 2006 - Jun 2009"]
+                  :did [ "ita"
+                      "Participated in the design and development of an airline reservations system"
+                      "Designed and Implemented a specialized Load Balancer for handling airline flight pricing requests "
+                      "Wrote system test reporting application using Grails"
+                      "Developed a Discount Code processor that integrated with an external company system."
+                      "Developed a solution for sending rich HTML receipts to customers"
+                      ]
 
-                  :job ["ITA Software (now Google), Cambridge, MA" "Senior Consulting Engineer" "JUL 2006 - JUN 2009"]
-                  :did [ "ita" "Participated in design and development of an airline reservations system"
-                        "Specialized load balancer for handling HTTP requests and pulling from Oracle queues"
-                        "Wrote test reporting application using Grails"
-                        "Developed solution for sending rich HTML receipts to customers"]
+                  :job ["P&H Solutions (ph.com), Waltham, MA" "Senior Consulting Engineer" "May 2004 - Jun 2006"]
+                   :did [ "phsolutions" "Migrated mature banking web application from the Microsoft platform (C++/COM/MTS/ASP/ADO/VB) to the J2EE (Java/JDBC/JSP/JUnit) platform"
+                          "Provided just-in-time architecture and design expertise, serving as a valuable resource for the team in Java/J2EE development and IDE proficiency."
+                          "Promoted agile methods: refactoring, unit tests, continuous integration"]
 
-                  :job ["P&H Solutions (ph.com), Waltham, MA" "Senior Consulting Engineer" "MAY 2004 - JUN 2006"]
-                  :did [ "phsolutions" "Migrated mature banking web application from the Microsoft platform (C++/COM/MTS/ASP/ADO/VB) to the J2EE (Java/JDBC/JSP/JUnit) platform"
-                        "Provide just in time architecture and design"
-                        "Team resource for Java/J2EE and IDE expertise"
-                        "Utilize agile methods: refactoring, unit tests, continuous integration"]
+                  :job ["Sun Microsystems, Marlboro, MA" "Senior Consulting Engineer" "Jan 2003 - May 2004"]
+                  :did ["sunmicro" "Part of a team that developed an application for monitoring enterprise storage systems"]
 
-                  :job ["Sun Microsystems, Marlboro, MA" "Senior Consulting Engineer" "JAN 2003 - MAY 2004"]
-                  :did ["sunmicro" "Part of a team that developed an application for monitoring storage systems"
-                        "The application was implemented using Java, XML, Javascript, tag libraries, Oracle, eclipse, Ant, Tomcat, Linux, Solaris"
-                        "Designed and developed application features; Searching, Filtering, and Custom Reporting"
-                        "Worked to drive application's automatic switching to Chinese, Japanese or French based on client's language"]
+                  :job ["Sun Microsystems, Burlington, MA" "Consulting Engineer" "May 2002 - Nov 2002"]
+                  :did ["sunmicro" "Attained the position of Apache Tomcat Committer by leading the implementation of the Servlet 2.4 specification."]
 
-                  :job ["Cell Exchange / Boeing, Cambridge, MA" "Consulting Architect/Developer" "DEC 2002"]
-                  :did ["cellexchange" "Rapidly architected and developed an aircraft inventory/status web application for USAF bases"]
+                  :job ["Network Engines, Canton, MA" "Senior Consulting Engineer" "Dec 2001 - Mar 2002"]
+                  :did ["networkengines" "Contributed to the finalization of an SDK for a rack-mount computer control panel"]
 
-                  :job ["Sun Microsystems, Burlington, MA" "Consulting Engineer" "MAY 2002 - NOV 2002"]
-                  :did ["sunmicro" "Contributor to the open source Apache Tomcat project.  Tomcat is the reference JSP/Servlet implementation.  Tomcat is core technology in many J2EE application servers"
-                        "Implemented new Servlet 2.4 functionality for Tomcat 4 and Tomcat 5"
-                        "Track/fix/eliminated problems with SSL, session handling, and logging"
-                        "Participated in Tomcat development community (discussions, votes, bug fixes)"]
+                  :job ["Lucent Technologies, Marlboro, MA" "Senior Consulting Java Engineer" "Apr 2001 - Jul 2001"]
+                  :did ["lucent" "Enhanced a web-based HR system to enable managers to efficiently grant bonuses" ]
 
-                  :job ["Network Engines, Canton, MA" "Senior Consulting Engineer" "DEC 2001 - MAR 2002"]
-                  :did ["networkengines" "Helped complete SDK for Rack mount computer control panel"]
+                  :job ["Voice of the Web, Reading, MA" "Chief Architect/Co-Founder" "Nov 2000 - Mar 2001"]
+                  :did [ "votw" "Co-Founded a Startup Company creating software to scan news sites and create spoken audio content from the site's content." ]
 
-                  :job ["Lucent Technologies, Marlboro, MA" "Senior Consulting Java Engineer" "APR 2001 - JUL 2001"]
-                  :did ["lucent" "Improved web based HR system allowing  managers to award bonuses"
-                        "Implemented new features using J2EE, JSP, Java, JDBC, HTML, JavaScript, Oracle 9i AS/8i DB"
-                        "Refactored JSP reports to include new features and improved speed, quality plus maintainability"
-                        "Created a place for managers to post questions and answers to communicate with employees"]
+                  :job ["Lumapath, Inc. Maynard, MA" "Senior Engineer, Team Leader" "Jan 2000 - Nov 2000"]
+                  :did [ "lumapath"
+                      "Led the development of a robust and seamless automated deployment system, ensuring flawless and hassle-free deployments."]
 
-                  :job ["Voice of the Web, Reading, MA" "Chief Architect/Co-Founder" "NOV 2000 - MAR 2001"]
-                  :did [ "votw" "Co-Founded a Startup Company creating software to scan news sites and create spoken audio content from the site's content.  Finalist in both the Lycos Labs and Boston.com business plan competitions"
-                        "Rapidly developed and deployed system in 2 months using J2EE, XML, VoiceXML, Java, JSP, Apache's Tomcat, tellme.com, Bell Labs Text-to-speech engine"]
+                  :job ["Radnet, Wakefield, MA" "Senior Consulting Engineer" "May 1999 - Dec 1999"]
+                  :did [ "radnet" "Developed key portions of web portal architecture (User, Preferences, Content Database) using Java/COM, IIS, ASP, MTS, Oracle" ]
 
-                  :job ["Lumapath, Inc. Maynard, MA" "Senior Engineer, Team Leader" "JAN 2000 - NOV 2000"]
-                  :did [ "lumapath" "Venture funded early stage startup that created an innovative search and user interface technology"
-                        "Designed and created a knowledge engineering tool for editors to process daily flow of search terms.  Tool allowed editors to create/edit/test/execute a set of rules for improving search hit quality"
-                        "Lead creation of automated deployment system for server farm (JSP/Java, F5's load balancer, Akamai's cache, offsite hosting, NT, IIS, Netscape/iPlanet, JavaScript, XML, Oracle)"]
+                  :job ["General DataComm/Ericsson, Marlboro, MA" "Senior Consultant" "Mar 1998 - Feb 1999"]
+                  :did [ "gdc" "Contributed to the successful launch of a carrier-grade Asynchronous Transfer Mode (ATM) networking product."]
 
-                  :job ["Radnet, Wakefield, MA" "Senior Consulting Engineer" "MAY 1999 - DEC 1999"]
-                  :did [ "radnet" "Developed portions of portal architecture (User, Preferences, Content Database) using Java/COM, IIS, ASP, MTS, Oracle"
-                        "Developed modular web UI controls included throughout the portal (JavaScript, Java)"
-                        "Critiqued existing architecture and suggested and implemented changes"
-                        "Mentored team members with Java/COM, JavaScript, XSLT, ASP, MTS, IIS"]
-
-                  :job ["General DataComm/Ericsson, Marlboro, MA" "Senior Consultant" "MAR 1998 - FEB 1999"]
-                  :did [ "gdc" "Brought an carrier-grade ATM networking product to production by fixing problems in C on embedded 68k PSOS system"
-                        "Devised and created distributed Java based testing tool which executed test plans"]
-
-                  :job ["Sun Microsystems,  Chelmsford, MA"            "Senior Engineer, Team Leader"          "MAR 1996 - MAR 1998"]
+                  :job ["Sun Microsystems,  Chelmsford, MA"            "Senior Engineer, Team Leader"          "Mar 1996 - Mar 1998"]
                   :did [ "sunmicro" "Lead team creating Java printing service for network computers"
                         "Researched and developed next generation email system leveraging Java technology"]
 
-                  :job ["Bridge Information Systems, NYC, NY" "Software Engineer" "APR 1994 - MAR 1996"]
-                  :did ["bridge" "Part of team that created a robust electronic order routing and trading system"
-                        "Created  C++ networking library that handle millions of daily transactions between Windows, Unix and Databases (Oracle, Sybase)"]
+                  :job ["Bridge Information Systems (now Reuters), NYC, NY" "Software Engineer" "Apr 1994 - Mar 1996"]
+                  :did ["bridge" "Part of team that created a robust electronic order routing and trading system"]
 
-                  :job ["Knight Ridder Financial, NYC, NY" "Software Engineer" "JUL 1990 - MAR 1994"]
-                  :did [ "krf" "Developed networked stock price and financial news processing engine in C/C++"]
+                  :job ["Knight Ridder Financial (now Reuters), NYC, NY" "Software Engineer" "Jul 1990 - Mar 1994"]
+                  :did [ "krf" "Developed networked stock price and financial news processing engine (ticker plant) in C/C++"]
 
-                  :job ["CAE-Link Flight Simulation, Binghamton, NY" "Software Developer" "MAY 1989 - JUN 1990"]
-                  :did ["caelink" "Developed simulator initialization system for a B2 Bomber simulator in ADA"
-                        "Revised a library used for doing highspeed interpolation from small dataset in Unix/C"]
+                  :job ["CAE-Link Flight Simulation, Binghamton, NY" "Software Developer" "May 1989 - Jun 1990"]
+                  :did ["caelink" "Designed and developed the initialization subsystem for a B2 Bomber flight training simulator in Ada" ]
                   ]
 
     :education [
-                 :school "Binghamton University, NY, MAY 1989"
+                 :school "Binghamton University, NY, May 1989"
                  :did [ "bingu" "BS, Electrical Engineering"]
 
-                 :school "CodeSchool.com, July 2013"
-                 :did [ "codeschool" "Ruby/CSS/Git/Electives 17 courses completed.  See http://www.codeschool.com/users/bherrmann7"]
                  ]
     ])
 
