@@ -1,0 +1,35 @@
+
+                :did ["sunmicro" "Awarded Apache Tomcat \"Committer Privileges\" by driving the implementation of the Servlet 2.4 specification."]
+
+
+
+
+                :job ["InnoCentive, Waltham, MA" "Grails Consultant" "JUN 2008 - MAY 2010"]
+                :did [ "innocentive" "Help development of site for matching problem solvers and solution seekers"
+                "Guided transition from old Java Framework (Enhydra) to Grails"
+                "Helped define best practices for development using Grails"
+                "Rapidly delivered  production system for viewing and searching content"
+                                          "Developed system for letting users tag content"]
+
+
+
+                :job ["QUICKHIT, MA" "Senior Java/Grails Engineer" "Jun 2010 - Sep 2010"]
+                :did ["quickhit" "Refactored a database of 300 columns by turning columns into rows, resulting in a 50% reduction in storage. Utilized Java, Hibernate, Spring, and Grails." ]
+
+
+
+
+                      "Orchestrated the development of team standards
+                      for utilizing JavaScript/ES6 with React/Redux,
+                      meticulously gathering requirements,
+                      facilitating lively discussions and debates with
+                      the group, and building comprehensive documents
+                      and streamlined processes to foster compliance
+                      and ensure consistent and efficient front-end
+                      development across projects."
+
+
+
+
+
+ Actively mentored a junior developer, facilitating their professional growth, and educated the technology group about our technology choices and project progress."]

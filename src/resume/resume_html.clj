@@ -3,7 +3,7 @@
 
 (defn table-row [data]
   (let [[label skills & remainder] data]
-    (flatten [["<tr><td width=220>" label "</td><td>" skills "</td></tr>"] (if (empty? remainder) "" (table-row remainder))])))
+    (flatten [["<tr><td width=150>" label "</td><td>" skills "</td></tr>"] (if (empty? remainder) "" (table-row remainder))])))
 
 (defmulti consume first)
 
@@ -25,7 +25,7 @@
 
 (defmethod consume :addr1 [data]
   (let [[command addr & r] data]
-    (flatten [["<center><b>" addr "</b></center>"] (consume r)])
+    (flatten [["<center><font size=+2><b>" addr "</b></font></center>"] (consume r)])
     ))
 
 (defmethod consume :addr [data]
@@ -35,13 +35,13 @@
 
 (defmethod consume :summary [data]
   (let [[command skill-table & more] data]
-    (flatten ["\n<p><h3>Summary</h3><table width=1024><tr><td><ul>\n" (map #(str "<li>" %) skill-table) "</ul>\n</table><p>\n" (consume more)])
+    (flatten ["\n<br><h3>Summary</h3><table width=1024><tr><td><ul>\n" (map #(str "<li>" %) skill-table) "</ul>\n</table>\n" (consume more)])
     )
   )
 
 (defmethod consume :skills [data]
   (let [[command skill-table & more] data]
-    (flatten ["\n<p><h3>Skills</h3><table>\n" (table-row skill-table) "\n</table><p>\n" (consume more)])
+    (flatten ["\n<h3>Skills</h3><table>\n" (table-row skill-table) "\n</table><p>\n" (consume more)])
     )
   )
 
@@ -84,7 +84,8 @@
 (defmethod consume "" [data]
   (str (first data) (consume rest)))
 
-(defn transform [data]
+(defn transform [ parent-dir data]
+  (.mkdirs (java.io.File. parent-dir))
   (let [ html-blocks (consume data)
          html (str "
              <html><head>
@@ -92,7 +93,9 @@
              </head><body>
              <div class='container'>"
              (clojure.string/join html-blocks)
-             "</div><p></body>") ]
-    (spit "resume.html" (clojure.string/join html))
-    (println "resume.html written.")
+             "</div><p></body>")
+        fout (str parent-dir "/resume.html")
+        ]
+    (spit fout (clojure.string/join html))
+    (println fout "written.")
   ))
