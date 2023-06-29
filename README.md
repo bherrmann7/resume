@@ -11,11 +11,17 @@ Ideally takes generic data about a resume and transforms it into a realized html
 	$ # edit the  src/resume/resume_data.clj
 	$ # provide images of companies in png format, save them to images
     $ clojure src/resume/core.clj
-    $ open resume.html
+    $ open clojure/resume.html
+	
+# To PDF
+
+    $ nbb install
+	$ nbb html-to-clojure.cljs clojure/resume.html clojure/resume.pdf
 
 ## Sample output
 
 See [http://jadn.com/resume/resume.html](http://jadn.com/resume/resume.html)
+See [http://jadn.com/resume/resume.pdf](http://jadn.com/resume/resume.pdf)
     
 
 ## License
