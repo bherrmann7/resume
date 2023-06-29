@@ -2,6 +2,13 @@
 ;;
 ;; This was extracted from https://github.com/yogthos/resume/blob/main/compile.cljs
 ;;
+;; Install
+;;    be sure you have the package.json file
+;;    npm i
+;;    npm install nbb -g
+;;
+;; Usage
+;;    nbb html-to-pdf.cljs  my-input.html  my-output.pdf 
 
 (ns html-to-pdf
   (:require
@@ -57,6 +64,7 @@
 
 
 (def cmd-line-args (drop 1 (not-empty (js->clj (.slice js/process.argv 2)))))
+
 (main (first cmd-line-args) (second cmd-line-args))
 
 (println "done.")
