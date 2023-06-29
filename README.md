@@ -21,7 +21,7 @@ Ideally takes generic data about a resume and transforms it into a realized html
 ## Sample output
 
 See [http://jadn.com/resume/resume.html](http://jadn.com/resume/resume.html)
-See [http://jadn.com/resume/resume.pdf](http://jadn.com/resume/resume.pdf)
+and [http://jadn.com/resume/resume.pdf](http://jadn.com/resume/resume.pdf)
     
 
 ## License
