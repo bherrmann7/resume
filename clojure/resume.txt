@@ -21,7 +21,7 @@ Carbonado  Burlington,  MA | Senior Software Engineer | Nov 2021 - Present
  - Drove modernization and development efforts, collaborating on new features for an enterprise-level hospital reporting system, resulting in increased efficiency and improved data accuracy.
  - Conceptualized and implemented a stock exchange trading application. The application was used as a workbench for experimenting with different algorithms and machine learning approaches. The project was a resounding success, demonstrating exceptional flexibility in executing trades and delivering substantial knowledge to the organization.
 
-Elromco  Canton,  MA | Senior Software Engineer | Mar 2019 - Nov 2021
+Elromco  Canton,  MA | Lead Software Engineer | Mar 2019 - Nov 2021
  - Responsible for the development of essential microservices (payment, communications, notifications, configuration) within a robust platform aimed at automating order management for moving companies.
  - Engaged in a comprehensive design iteration process, collecting requirements, designing, implementing, and repeatedly demonstrating the solution to the owner. 
 
@@ -30,7 +30,7 @@ Patient Ping  Boston,   MA | Senior Software Engineer | Feb 2018 - Mar 2019
  - Implemented a mechanism for tracing dataflow through a Kafka based messaging system
  - Developed tool for generating millions of realistic patient events, enabling robust development of systems without the need for sensitive HIPAA data.
 
-Vecna  Cambridge,   MA | Senior Software Engineer | Jun 2017 - Feb 2018
+Vecna  Cambridge,   MA | Lead Software Engineer | Jun 2017 - Feb 2018
  - Created system for managing warehouse inventory using SpringBoot
  - Designed/Implemented a distributed system for evaluating robotics planning algorithms using ClojureScript.
  - Performed analysis and tuning on production Java/Tomcat/Postgres system.
@@ -45,7 +45,7 @@ InnoCentive  Waltham,  MA | Senior Grails Developer | Jun 2011 - Aug 2012
 NYC Hospitals/Data Vision Group  NJ | Senior Consulting Engineer | Aug 2010 - Jun 2011
  - Led the end-to-end development lifecycle for a web application from minimal project description. Independently gathered requirements, conducted research, made implementation choices, managed bugs, and coordinated stakeholder meetings. Developed a robust web application using Wicket, Hibernate, Spring, jQuery, Java, and SQL Server technologies, integrating LDAP, command line tools, and a relational database. Orchestrated a workflow involving 40 participants managing a hospital's 40,000 user accounts, providing crucial support from conception to production.
 
-Isobar / Putnam Investments  Boston,  MA | Consulting Engineer | Nov 2010 - Jul 2011
+Isobar / Putnam Investments  Boston,  MA | Lead Consulting Engineer | Nov 2010 - Jul 2011
  - Provided leadership and guidance in the development of a system where marketing team could update content, while ensuring engineering team ownership.
 
 

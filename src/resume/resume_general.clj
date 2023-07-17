@@ -7,7 +7,7 @@
 (def resume
   [:intro-block [:addr1 "Robert W. Herrmann"
                  :addr "bob@jadn.com  978-512-0495 linkedin.com/in/robertherrmann Groton, MA"]
-   :summary ["Seasoned software engineer with 20+ years of experience. Proven track record in building scalable, reliable systems."]
+   :summary ["Seasoned Lead Software Engineer with 20+ years of experience. Proven track record in building scalable, reliable systems."]
 
    :skills ["Languages" "Java/SpringBoot, JavaScript, Clojure, SQL, CSS, Scripting"
             "Approaches" "Functional, Object-oriented, Agile, Test Driven, Scrum, REPL, Continuous delivery"
@@ -26,7 +26,7 @@
                       executing trades and delivering substantial
                       knowledge to the organization.")]
 
-                :job ["Elromco, Canton, MA" "Senior Software Engineer" "Mar 2019 - Nov 2021"]
+                :job ["Elromco, Canton, MA" "Lead Software Engineer" "Mar 2019 - Nov 2021"]
                 :did ["elromco"
 
                       (wr "Responsible for the development of essential
@@ -46,7 +46,7 @@
                       "Implemented a mechanism for tracing dataflow through a Kafka based messaging system"
                       "Developed tool for generating millions of realistic patient events, enabling robust development of systems without the need for sensitive HIPAA data."]
 
-                :job ["Vecna, Cambridge,  MA" "Senior Software Engineer" "Jun 2017 - Feb 2018"]
+                :job ["Vecna, Cambridge,  MA" "Lead Software Engineer" "Jun 2017 - Feb 2018"]
                 :did ["vecna" "Created system for managing warehouse inventory using SpringBoot"
                       "Designed/Implemented a distributed system for evaluating robotics planning algorithms using ClojureScript."
                       "Performed analysis and tuning on production Java/Tomcat/Postgres system."]
@@ -82,7 +82,7 @@
 
                       (wr "Led the end-to-end development lifecycle for a web application from minimal project description. Independently gathered requirements, conducted research, made implementation choices, managed bugs, and coordinated stakeholder meetings. Developed a robust web application using Wicket, Hibernate, Spring, jQuery, Java, and SQL Server technologies, integrating LDAP, command line tools, and a relational database. Orchestrated a workflow involving 40 participants managing a hospital's 40,000 user accounts, providing crucial support from conception to production.")]
 
-                :job ["Isobar / Putnam Investments, Boston, MA" "Consulting Engineer" "Nov 2010 - Jul 2011"]
+                :job ["Isobar / Putnam Investments, Boston, MA" "Lead Consulting Engineer" "Nov 2010 - Jul 2011"]
                 :did ["isobar" "Provided leadership and guidance in the development of a system where marketing team could update content, while ensuring engineering team ownership."]
 
                 ]
