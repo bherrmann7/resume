@@ -16,7 +16,9 @@ Ideally takes generic data about a resume and transforms it into a realized html
 # To PDF
 
     $ nbb install
-	$ nbb html-to-clojure.cljs clojure/resume.html clojure/resume.pdf
+    $ nbb html-to-pdf.cljs clojure/resume.html clojure/resume.pdf
+    $ nbb html-to-pdf.cljs general/resume.html general/resume.pdf
+
 
 ## Sample output
 

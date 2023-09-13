@@ -7,9 +7,9 @@
 (def resume
   [:intro-block [:addr1 "Robert W. Herrmann"
                  :addr "bob@jadn.com  978-512-0495 linkedin.com/in/robertherrmann Groton, MA"]
-   :summary ["Seasoned Lead Software Engineer with 20+ years of experience. Proven track record in building scalable, reliable systems."]
+   :summary ["Seasoned Software Engineer with 20+ years of experience. Proven track record in building scalable, reliable systems."]
 
-   :skills ["Languages" "Java/SpringBoot, JavaScript, Clojure, SQL, CSS, Scripting"
+   :skills ["Languages" "Java/SpringBoot, JavaScript, Clojure, SQL, Python"
             "Approaches" "Functional, Object-oriented, Agile, Test Driven, Scrum, REPL, Continuous delivery"
             "Databases" "Postgres, MySQL, Oracle, Redis, LDAP, Datalog"]
 

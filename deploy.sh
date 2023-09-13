@@ -1,3 +1,5 @@
+set -e
+./mk
 cd clojure
 tar czf r.tgz resume.html resume.pdf resume.txt
 scp r.tgz root@wilddog.local:/mnt/studio/jadn/ROOT/resume/r.tgz
