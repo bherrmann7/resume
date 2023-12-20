@@ -1,5 +1,5 @@
-Robert W. Herrmann
-bob@jadn.com  978-512-0495 linkedin.com/in/robertherrmann Groton, MA
+Robert Herrmann
+bob@jadn.com  978-512-0495 linkedin.com/in/robertherrmann 43 Fawn Ter, Groton, MA, 01450
 
 
 Summary
@@ -13,7 +13,7 @@ Databases --> Postgres, MySQL, Oracle, Redis, LDAP, Datalog
 
 
 Experience
-Carbonado  Burlington,  MA | Senior Software Engineer | Nov 2021 - Present
+Carbonado  Burlington,  MA | Senior Software Engineer | Nov 2021 - Sep 2023
  - Drove modernization and development efforts, collaborating on new features for an enterprise-level hospital reporting system, resulting in increased efficiency and improved data accuracy.
  - Conceptualized and implemented a stock exchange trading application. The application was used as a workbench for experimenting with different algorithms and machine learning approaches. The project was a resounding success, demonstrating exceptional flexibility in executing trades and delivering substantial knowledge to the organization.
 
@@ -32,13 +32,13 @@ Vecna  Cambridge,   MA | Lead Software Engineer | Jun 2017 - Feb 2018
  - Performed analysis and tuning on production Java/Tomcat/Postgres system.
 
 Optum Analytics  Boston,   MA | Senior Software Engineer | Oct 2013 - Jun 2017
- - Meticulously translated R code from data scientists into SQL, enabling seamless ETL processing of patient data and facilitating data analysis and insights.
+ - Meticulously translated R code from Data Scientists into SQL, enabling seamless ETL processing of patient data and facilitating data analysis and insights.
  - Played an key role in the development and enhancement of an analytics application, which served as the company's core product. Utilizing Java, Spring, Oracle, and Flex, added features, meticulously tracked down bugs, and improved functionality and data visualization capabilities.
 
 InnoCentive  Waltham,  MA | Senior Grails Developer | Jun 2011 - Aug 2012
  - Created a major new revenue-generating feature that empowered customers to make online purchases. Researched, selected, and implemented a credit card payment system using stripe.com to facilitate secure and seamless credit card transactions.
 
-NYC Hospitals/Data Vision Group  NJ | Senior Consulting Engineer | Aug 2010 - Jun 2011
+NYC Health + Hospitals  New York City,  NY | Senior Consulting Engineer | Aug 2010 - Jun 2011
  - Led the end-to-end development lifecycle for a web application from minimal project description. Independently gathered requirements, conducted research, made implementation choices, managed bugs, and coordinated stakeholder meetings. Developed a robust web application using Wicket, Hibernate, Spring, jQuery, Java, and SQL Server technologies, integrating LDAP, command line tools, and a relational database. Orchestrated a workflow involving 40 participants managing a hospital's 40,000 user accounts, providing crucial support from conception to production.
 
 Isobar / Putnam Investments  Boston,  MA | Lead Consulting Engineer | Nov 2010 - Jul 2011
@@ -46,5 +46,5 @@ Isobar / Putnam Investments  Boston,  MA | Lead Consulting Engineer | Nov 2010 -
 
 
 Education
-Binghamton University, NY, May 1989 - BS, Electrical Engineering
+Binghamton University, NY, May 1989 - Bachelors Degree, Electrical Engineering
 

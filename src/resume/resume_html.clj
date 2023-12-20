@@ -45,23 +45,50 @@
     )
   )
 
+(defmethod consume :additional-experience [data]
+  (let [[command line & more] data]
+    (if (nil? line)
+      (flatten [ (consume more) ])
+      (flatten ["\n<h3>Additional Experince: " line (consume more)])
+    )
+    )
+  )
+
+(defmethod consume :tech [data]
+  (let [[command tech-info & more] data]
+  (flatten ["<table style='margin-bottom: 8px' width=1024px><tr><td width='5'><td align='left' width=340>Tech: " tech-info "</table></div>" (consume more)])
+  ))
+
+(defmethod consume :br [data]
+  (let [[command  & more] data]
+  (flatten ["<br>" (consume more)])
+  ))
+
 (defn bold-first-of-csv [string]
-  (let [str-list (clojure.string/split string #",")]
-  (str "<b>" (first str-list) "</b>," (clojure.string/join ", "(rest str-list)))))
+  (let [str-list (clojure.string/split string #",")
+        company-raw (first str-list)
+        open-paren (.indexOf company-raw "(")
+        company-end (if (= -1 open-paren) (count company-raw) open-paren)
+        company-name (.substring company-raw 0 company-end)
+        company-explain (.substring company-raw company-end)
+        ]
+    (str "<b>" company-name "</b>" company-explain "," (clojure.string/join ", "(rest str-list)))))
+
+;;(bold-first-of-csv "josh, cow")
+;;(bold-first-of-csv "josh (narrow), cow")
 
 (defmethod consume :job [data]
   (let [
          [command job-info & more] data
          [where role when] job-info
          bold-first (bold-first-of-csv where)]
-  (flatten ["<table width=1024px><tr><td align='left' width=340>" bold-first " | " role " | " when "</table>" (consume more)])
+  (flatten ["<div style='page-break-inside: avoid;'><table width=1024px><tr><td align='left' width=340>" bold-first " | " role " | " when "</table>" (consume more)])
   ))
 
 (defmethod consume :did [data]
-  (let [[command items & more] data
-        image-name (first items)
-        points (rest items)]
-  (flatten [ "<table width=1024px><tr><td><ul>" (clojure.string/join (map #(str "<li>" % "</li>") points)) "</ul></table>" (consume more)])
+  (let [[command points & more] data
+    ]
+  (flatten [ "<table width=1024px><tr><td><ul style='margin-bottom: 0; padding-bottom: 0;'>" (clojure.string/join (map #(str "<li>" % "</li>") points)) "</ul></table>" (consume more)])
   ))
 
 (defmethod consume :experience [data]
@@ -89,6 +116,7 @@
   (let [ html-blocks (consume data)
          html (str "
              <html><head>
+             <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
              <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC' crossorigin='anonymous'>
              </head><body>
              <div class='container'>"

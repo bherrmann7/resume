@@ -1,9 +1,9 @@
 
-(ns resume.resume-clojure
-  (:require resume.resume-general))
+(ns resume.resume-clojure-full
+  (:require resume.resume-full))
 
 
-(def pairs (partition 2 resume.resume-general/resume))
+(def pairs (partition 2 resume.resume-full/resume))
 
 (def replace-map {
 
@@ -19,8 +19,9 @@
             "Approaches" "Functional, Object-oriented, Agile, Test Driven, Scrum, REPL, Continuous delivery"
             "Databases" "Postgres, MySQL, Oracle, Redis, LDAP, Datalog"]
 
+
    :education [
-               :school "Binghamton University, Binghamton, NY"
+               :school "Binghamton University, NY, May 1989"
                :did [ "BS, Electrical Engineering"]
 
                :school "Attended Clojure Conferences (Clojure Conj); 2023, 2017, 2014"
