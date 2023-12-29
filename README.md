@@ -19,13 +19,6 @@ Ideally takes generic data about a resume and transforms it into a realized html
     $ nbb html-to-pdf.cljs clojure/resume.html clojure/resume.pdf
     $ nbb html-to-pdf.cljs general/resume.html general/resume.pdf
 
-
-## Sample output
-
-See [http://jadn.com/resume/resume.html](http://jadn.com/resume/resume.html)
-and [http://jadn.com/resume/resume.pdf](http://jadn.com/resume/resume.pdf)
-    
-
 ## License
 
 Copyright © 2021,2023
